@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета Material Design -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <!-- Фоны -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="input_background">#F5F5F5</color>
+
+    <!-- Текст -->
+    <color name="text_primary">#FF000000</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">@color/white</color>
+
+    <!-- Графы -->
+    <color name="vertex_color">#4CAF50</color>
+    <color name="edge_color">#2196F3</color>
+    <color name="highlight_vertex">#FF9800</color>
+    <color name="highlight_edge">#F44336</color>
+    <color name="path_edge">#F44336</color>
+
+    <!-- Кнопки -->
+    <color name="button_primary">#4CAF50</color>
+    <color name="button_secondary">#FFFFFF</color>
+
+    <!-- Системные -->
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="info">#2196F3</color>
+</resources>
