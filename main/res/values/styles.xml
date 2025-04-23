@@ -1,0 +1,55 @@
+<resources>
+    <!-- Основная тема приложения -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- Стили компонентов -->
+        <item name="buttonStyle">@style/Widget.GraphsApp.Button</item>
+        <item name="textInputStyle">@style/Widget.GraphsApp.TextInputLayout</item>
+        <item name="editTextStyle">@style/Widget.GraphsApp.EditText</item>
+        <item name="spinnerStyle">@style/Widget.GraphsApp.Spinner</item>
+    </style>
+
+
+    <!-- Стиль кнопки -->
+    <style name="Widget.GraphsApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_primary</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+    </style>
+
+    <!-- Стиль TextInputLayout -->
+    <style name="Widget.GraphsApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/edge_color</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="boxBackgroundColor">@color/input_background</item>
+    </style>
+
+    <!-- Стиль EditText -->
+    <style name="Widget.GraphsApp.EditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+
+    <!-- Стиль Spinner -->
+    <style name="Widget.GraphsApp.Spinner" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/edge_color</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxBackgroundColor">@color/input_background</item>
+        <item name="android:popupBackground">@color/input_background</item>
+    </style>
+
+    <style name="Widget.GraphsApp.TextInputLayout.ExposedDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/edge_color</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="boxBackgroundColor">@color/input_background</item>
+        <item name="android:popupBackground">@color/input_background</item>
+    </style>
+</resources>

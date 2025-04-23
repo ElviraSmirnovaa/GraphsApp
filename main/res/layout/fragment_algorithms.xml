@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:id="@+id/algorithms_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/bfs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск в ширину (BFS)" />
+
+    <Button
+        android:id="@+id/dfs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск в глубину (DFS)" />
+
+    <Button
+        android:id="@+id/euler_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Эйлеров цикл" />
+
+    <Button
+        android:id="@+id/hamilton_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гамильтонов цикл" />
+
+    <Button
+        android:id="@+id/dijkstra_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алгоритм Дейкстры" />
+
+    <Button
+        android:id="@+id/simple_paths_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Простые цепи" />
+
+    <Button
+        android:id="@+id/prim_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алгоритм Прима" />
+
+    <Button
+        android:id="@+id/kruskal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алгоритм Краскала" />
+
+    <Button
+        android:id="@+id/prufer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Код Прюфера" />
+
+    <Button
+        android:id="@+id/coloring_greedy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жадная раскраска" />
+
+    <Button
+        android:id="@+id/coloring_sequential_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Последовательная раскраска" />
+
+    <Button
+        android:id="@+id/tsp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жадный алгоритм TSP" />
+
+    <Button
+        android:id="@+id/floyd_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алгоритм Флойда"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ford_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Алгоритм Форда"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/output_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/start_vertex_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Начальная вершина"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/end_vertex_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Конечная вершина"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_path_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Следующая цепь"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
+</ScrollView>

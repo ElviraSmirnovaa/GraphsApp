@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема (используется как родитель для ночной темы) -->
+    <style name="Base.Theme.GraphsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+    </style>
+
+    <!-- Светлая тема -->
+    <style name="Theme.GraphsApp.Light" parent="Base.Theme.GraphsApp">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <!-- Темная тема -->
+    <style name="Theme.GraphsApp.Dark" parent="Base.Theme.GraphsApp">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">true</item>
+    </style>
+</resources>

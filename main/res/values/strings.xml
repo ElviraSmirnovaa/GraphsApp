@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GraphsApp</string>
+    <string name="directed_mode">Ориентированный</string>
+    <string name="undirected_mode">Неориентированный</string>
+    <string-array name="input_types_array">
+        <item>Список ребер</item>
+        <item>Бинарное дерево</item>
+        <item>Код Прюфера</item>
+    </string-array>
+</resources>
